@@ -40,6 +40,16 @@ Za animaciju rotacije sfere oko svoje ose, upotrebljen je primer sa sledećeg li
 Definisan je početni i krajnji frejm, transformacija rotacije kao i osa oko koje se okreće sfera. U kodu je to z-osa. 
 Zatim je pristupljeno 'GRAPH EDITOR'-u gde su krive promenjene da budu linearne, konkretno fcurves[0].select(True). Fcurves je sastavljen od splajnova koji povezuju keyframe-ove. Na kraju se vraćamo u 3D view, bpy.context.area.type = 'VIEW_3D'.
 
+## 5. DODATNI DUGMIĆI
+
+U korisnički interfejs su dodata još 4 dugmeta da olakšaju rad sa skriptom. To su "Play/Pause", "Stop", "Clear Scene", "Reset Parameters".
+Sledi objašnjenje upotrebe dugmića:
+- "Play/Pause" - Poziva Blender operator "screen.animation_play" koji pušta i pauzira animaciju.
+- "Stop" - Ovo je naš operator koji poziva dve operacije "bpy.ops.screen.animation_cancel()" i "bpy.ops.screen.frame_jump(0)"
+"animation_cancel()" zaustavlja animaciju a "frame_jump(0)" nas vraća na početak animacije.
+- "Clear Scene" - Naš operator koji selektuje sve objekte u sceni preko for petlje, a zatim ih briše.
+- "Reset Parameters" - Custom operator koji postavlja sve parametre iz tačke 3. na početne vrednosti.
+
 ## 6. UI
 
 User interface je napravljen preko klase OurToolPanel(Panel) gde su nasledjene sve metode klase Panel. Definisan je region gde se skripta kreira (unutar TOOLS panela kao posebna kartica) i naziv kartice. Definisano je četiri slajdera: Size, Orbit, Rotation Speed i Orbital Speed (pogledati poglavlje 3 za objašnjenje funkcionalnosti). Elementi UI-ja se dodaju preko funkcije Draw. Ikonice se definišu unutar operatora, npr. icon='PLAY'.
