@@ -29,3 +29,5 @@ Sledi objašnjenje parametara.
 - "Orbit" - Udaljenost sfere od selekcije, odnosno orbita.
 - "Rotation Speed" - Rotacija sfere oko sopstvene z-ose.
 - "Orbit Speed" - Brzina kretanja sfere po orbiti.
+
+Svaki od ovih parametra se čita u "main" funkciji programa a zatim se prosleđuje klasi "Planet", prilikom pravljenja objekta "MyPlanet" koja je zadužena da napravi i animira sfere.
