@@ -15,11 +15,11 @@ Add-on koji smo napisali za Blender se zove CreatePlanets, pomoću njega je mogu
 ## 2. "CREATE" DUGME
 
 Na vrhu korisničkog interfejsa nalazi se dugme "CREATE". Pritiskom na ovo dugme prvo proveravamo da li su neki objekti na sceni selektovani. 
-- Ako ni jedan objekat nije selektovan, ili ako je selektovano više objekata, skripta će napraviti novi "Empty" objekat i "Sferu" u koordinatnom početku sveta. Pošto se objekti u blenderu inače prave na mestu 3D kursora prvo smo učitali poziciju kursora u vektor "cursor", a zatim koristimo te koordinate da transliramo nove objekte u centar scene.
+- Ako nijedan objekat nije selektovan, ili ako je selektovano više objekata, skripta će napraviti novi "Empty" objekat i "Sferu" u koordinatnom početku sveta. Pošto se objekti u blenderu inače prave na mestu 3D kursora prvo smo učitali poziciju kursora u vektor "cursor", a zatim koristimo te koordinate da transliramo nove objekte u centar scene.
 - Ako je selektovan tačno jedan objekat skripta će napraviti novi "Empty" objekat i sferu na poziciji selektovanog objekta.
 Nakon toga će "Empty" objekat postati child selektovanog objekta, a sfera će postati child "Empty" objekta.
 
-"Empty" objekat nam je potreban kako bi smo animirali revoluciju sfere oko selektovanog objekta.
+"Empty" objekat nam je potreban kako bismo animirali revoluciju sfere oko selektovanog objekta.
 
 ## 3. PARAMETRI
 
