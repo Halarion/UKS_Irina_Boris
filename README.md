@@ -37,3 +37,4 @@ Svaki od ovih parametra se čita u "main" funkciji programa a zatim se prosleđu
 
 Za animaciju rotacije sfere oko svoje ose, upotrebljen je primer sa sledećeg linka: <https://www.youtube.com/watch?v=1rOc1b740Ds>
 Definisan je početni i krajnji frejm, transformacija rotacije kao i osa oko koje se okreće sfera. U kodu je to z-osa. 
+Zatim je pristupljeno 'GRAPH EDITOR'-u gde su krive promenjene da budu linearne, konkretno fcurves[0].select(True). Fcurves je sastavljen od splajnova koji povezuju keyframe-ove. Na kraju se vra'amo u 3D view, bpy.context.area.type = 'VIEW_3D'.
