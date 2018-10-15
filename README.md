@@ -1,6 +1,6 @@
 # UKS_Irina_Boris
 Repo za alat koji smo pisali u Blenderu za predmet UKS na masteru animacije.
-1. UVOD
+1. UVOD.
 Originalna ideja je bila da napravimo alat za 3ds max pomoću python-a ali to se pokazalo kao jako teško zbog
 neadekvatne dokumentacije, nedostatka tutorijala i foruma, loših alata za testiranje itd.
 
