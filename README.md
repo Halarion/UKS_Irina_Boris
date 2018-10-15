@@ -39,3 +39,12 @@ Za animaciju rotacije sfere oko svoje ose, upotrebljen je primer sa sledećeg li
 
 Definisan je početni i krajnji frejm, transformacija rotacije kao i osa oko koje se okreće sfera. U kodu je to z-osa. 
 Zatim je pristupljeno 'GRAPH EDITOR'-u gde su krive promenjene da budu linearne, konkretno fcurves[0].select(True). Fcurves je sastavljen od splajnova koji povezuju keyframe-ove. Na kraju se vraćamo u 3D view, bpy.context.area.type = 'VIEW_3D'.
+
+## 5. DODATNI DUGMIĆI
+
+U korisnički interfejs su dodata još 4 dugmeta da olakšaju rad sa skriptom. To su "Play/Pause", "Stop", "Clear Scene", "Reset Parameters".
+Sledi objašnjenje upotrebe dugmića:
+- "Play/Pause" -
+- "Stop" -
+- "Clear Scene" - 
+- "Reset Parameters" - 
