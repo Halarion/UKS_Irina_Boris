@@ -31,6 +31,7 @@ Sledi objašnjenje parametara.
 - "Orbit Speed" - Brzina kretanja sfere po orbiti.
 
 Svaki od ovih parametra se čita u "main" funkciji programa a zatim se prosleđuje klasi "Planet", prilikom pravljenja objekta "MyPlanet" koja je zadužena da napravi i animira sfere.
+Nakon što se novi objekat napravi ovim paremetrima je nemoguće pristupiti. Omogućiti korisiku da promeni parametri preko korisničkog interfejsa nakon što je objekat napravljen bi bila odlična funkcionalnost, ali njena implementacija je ostavljena za neku narednu verziju skripte.
 
 
 ## 4. ANIMACIJA
