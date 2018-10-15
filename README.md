@@ -1,6 +1,8 @@
 # Upravljanje Konfiguracijom Softvera - Predmetni Projekat
 ### Irina Marčeta, Boris Stajić
 
+YouTube video demo link: <https://www.youtube.com/watch?v=9oe-BvH_23o&feature=youtu.be>
+
 
 ## 1. UVOD
 
