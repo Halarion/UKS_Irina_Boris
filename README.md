@@ -32,7 +32,7 @@ Sledi objašnjenje parametara.
 - "Rotation Speed" - Rotacija sfere oko sopstvene z-ose.
 - "Orbit Speed" - Brzina kretanja sfere po orbiti.
 
-Svaki od ovih parametra se čita u "main" funkciji programa a zatim se prosleđuje klasi "Planet", prilikom pravljenja objekta "MyPlanet" koja je zadužena da napravi i animira sfere. Nakon što se novi objekat napravi ovim parametrima je nemoguće pristupiti. Omogućiti korisiku da promeni parametre preko korisničkog interfejsa nakon što je objekat napravljen bi bila odlična funkcionalnost, ali njena implementacija je ostavljena za neku narednu verziju skripte.
+Svaki od ovih parametra se čita u "main" funkciji programa a zatim se prosleđuje klasi "Planet", prilikom pravljenja objekta "MyPlanet" koja je zadužena da napravi i animira sfere. Nakon što se novi objekat napravi ovim parametrima je nemoguće pristupiti. Omogućiti korisniku da promeni parametre preko korisničkog interfejsa nakon što je objekat napravljen bi bila odlična funkcionalnost, ali njena implementacija je ostavljena za neku narednu verziju skripte.
 
 
 ## 4. ANIMACIJA
