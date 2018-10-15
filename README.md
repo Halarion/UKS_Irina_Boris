@@ -44,7 +44,8 @@ Zatim je pristupljeno 'GRAPH EDITOR'-u gde su krive promenjene da budu linearne,
 
 U korisnički interfejs su dodata još 4 dugmeta da olakšaju rad sa skriptom. To su "Play/Pause", "Stop", "Clear Scene", "Reset Parameters".
 Sledi objašnjenje upotrebe dugmića:
-- "Play/Pause" -
-- "Stop" -
-- "Clear Scene" - 
-- "Reset Parameters" - 
+- "Play/Pause" - Poziva Blender operator "screen.animation_play" koji pušta i pauzira animaciju.
+- "Stop" - Ovo je naš operator koji poziva dve operacije "bpy.ops.screen.animation_cancel()" i "bpy.ops.screen.frame_jump(0)"
+"animation_cancel()" zaustavlja animaciju a "frame_jump(0)" nas vraća na početak animacije.
+- "Clear Scene" - Naš operator koji selektuje sve objekte u sceni preko for petlje, a zatim ih briše.
+- "Reset Parameters" - Custom operator koji postavlja sve parametre iz tačke 3. na početne vrednosti.
