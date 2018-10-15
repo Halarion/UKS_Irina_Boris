@@ -18,7 +18,7 @@ Nakon toga će "Empty" objekat postati child selektovanog objekta, a sfera će p
 3. PARAMETRI
 U korisničkom interfejsu se nalaze 4 promenljiva parametra. To su: "Size","Orbit","Rotation Speed" i "Orbit Speed".
 Sledi objašnjenje parametara.
-"Size" - Veličina sfere.
-"Orbit" - Udaljenost sfere od selekcije, odnosno orbita.
-"Rotation Speed" - Rotacija sfere oko sopstvene z-ose.
-"Orbit Speed" - Brzina kretanja sfere po orbiti.
+- "Size" - Veličina sfere.
+- "Orbit" - Udaljenost sfere od selekcije, odnosno orbita.
+- "Rotation Speed" - Rotacija sfere oko sopstvene z-ose.
+- "Orbit Speed" - Brzina kretanja sfere po orbiti.
